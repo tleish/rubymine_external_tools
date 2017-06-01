@@ -5,8 +5,8 @@ A library of scripts for including in RubyMine external tools.  The reason for t
 The following libraries are used in various gems
 
 ```
-gem install brakeman flay flog reek rubocop roodi pronto pronto-brakeman pronto-reek
-gem
+gem install specific_install brakeman flay flog reek rubocop roodi pronto pronto-brakeman pronto-reek
+gem specific_install https://github.com/tleish/gitlab-ci_branch.git
 ```
 
 # Usage
