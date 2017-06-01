@@ -12,7 +12,7 @@ gem specific_install https://github.com/tleish/gitlab-ci_branch.git
 # Usage
 
 ```
-$ git clone https://github.com/tleish/rubymin_external_tools
+$ git clone https://github.com/tleish/rubymine_external_tools.git
 ```
 
 Then in Rubymine, navigate to
