@@ -6,8 +6,8 @@ git diff --cached --name-only # output staged files
 
 echo ""
 echo "brakeman:"
-for branch in ${BRANCHES//,/ }; do echo $branch; pronto run --commit="$branch" --runner=brakeman; done
+for branch in ${BRANCHES//,/ }; do echo $branch; pronto run --staged --commit="$branch" --runner=brakeman; done
 
 echo ""
 echo "reek:"
-for branch in ${BRANCHES//,/ }; do echo $branch; pronto run --commit="$branch" --runner=reek; done
+for branch in ${BRANCHES//,/ }; do echo $branch; pronto run --staged --commit="$branch" --runner=reek; done
